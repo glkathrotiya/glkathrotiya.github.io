@@ -1,0 +1,8 @@
+excerpt_separator: ""
+pygments: true
+markdown: kramdown
+url: http://glkathrotiya.github.io
+title: gunvant
+tagline: A log of dev life
+description: My awesome new site
+paginate: 5
