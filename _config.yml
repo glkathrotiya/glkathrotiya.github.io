@@ -1,7 +1,8 @@
 excerpt_separator: ""
 pygments: true
 markdown: kramdown
-url: http://gunvantk.github.io
+url: http://gunvant.net
+shorturl: gunvant.net
 title: gunvant
 tagline: A log of dev life
 description: 
