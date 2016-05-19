@@ -6,3 +6,6 @@ title: gunvant
 tagline: A log of dev life
 description: 
 paginate: 5
+
+gems:
+  - jekyll-sitemap
