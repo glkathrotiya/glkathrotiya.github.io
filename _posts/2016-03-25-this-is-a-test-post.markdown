@@ -3,7 +3,7 @@ published: true
 title: Importing ZPK and ZMK into Thales Payshield 9000 HSM
 layout: post
 tags: [Thales,Payment,HSM,ZPK,ZMK]
-category: Coding, Payment, HSM
+
 ---
 **ZMK**
 
@@ -62,18 +62,12 @@ HSM Command:
 
 Where,
 
-> Atalla Variant = 00 
-
-> Encrypted PPK Key = AC4D3C5F603C1B502E5F45668A155C25 
-
-> Key Scheme= X 
-
+> Atalla Variant = 00
+> Encrypted PPK Key = AC4D3C5F603C1B502E5F45668A155C25
+> Key Scheme= X
 > Key Scheme LMK= U
-
-> Key Type = 001 
-
-> ZMK = C899B42EC5C350121FBE0987D14685A5 
-
+> Key Type = 001
+> ZMK = C899B42EC5C350121FBE0987D14685A5
 > ZMK Scheme = U
 
     Response:
