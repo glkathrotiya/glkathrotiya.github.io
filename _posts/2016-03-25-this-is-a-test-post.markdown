@@ -5,6 +5,7 @@ layout: post
 tags: [test]
 ---
 **ZMK**
+
 Zone Master Key (ZMK) also known as an **Interchange key (IK)** is a key-encrypting key which is distributed manually between two communicating sites, within a shared network, in order that further keys can be exchanged automatically. The ZMK is used to encrypt keys of a lower level (e.g. ZPK) for transmission.
 
 The ZMK is exchanged using secured methods and Split knowledge policy. The KI is split into two components that are sent by two separate physical couriers to two nominated Security Officers of the other party. This is one of the most secure way to do it since no single person gains knowledge of the clear ZMK.
@@ -42,13 +43,16 @@ Test values provided,
 
 
 **ZPK**
+
 Zone PIN Key (ZPK) also known as a A **PIN protection key (PPK)**, is a data encrypting key which is distributed automatically and is used to encrypt PINs. For security and protocol reasons the HSM where this key generated, never exposes the ZPK in clear. But it can be exported using another key called ZMK (Interchange Key). In this context exports actually means use the ZMK Key to encrypt the ZPK and give back to the user.
 
 **Import ZPK**
 
-From the host application, send the **A6** commands with required arguments as following,
-
+The following ZPK shared by comunicating party, is encrypted under ZMK 
+    
     ZPK encrypted under ZMK: AC4D3C5F603C1B502E5F45668A155C25
+    
+From the host application, send the **A6** commands with required arguments as following,
 
 HSM Command: 
 
@@ -56,13 +60,13 @@ HSM Command:
 
 Where,
 
-Atalla Variant = 00
-Encrypted PPK Key= AC4D3C5F603C1B502E5F45668A155C25
-Key Scheme= X
-Key Scheme LMK= U
-Key Type = 001
-ZMK = C899B42EC5C350121FBE0987D14685A5
-ZMK Scheme = U
+> Atalla Variant = 00 
+> Encrypted PPK Key = AC4D3C5F603C1B502E5F45668A155C25 
+> Key Scheme= X 
+> Key Scheme LMK= U
+> Key Type = 001 
+> ZMK = C899B42EC5C350121FBE0987D14685A5 
+> ZMK Scheme = U
 
     Response:
     0000A700U5F2DC42E10C92B16BA54802314CE95F5AFDA4F
