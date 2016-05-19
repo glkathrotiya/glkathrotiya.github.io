@@ -62,13 +62,13 @@ HSM Command:
 
 Where,
 
-> Atalla Variant = 00
-> Encrypted PPK Key = AC4D3C5F603C1B502E5F45668A155C25
-> Key Scheme= X
-> Key Scheme LMK= U
-> Key Type = 001
-> ZMK = C899B42EC5C350121FBE0987D14685A5
-> ZMK Scheme = U
+> Atalla Variant = 00  
+> Encrypted PPK Key = AC4D3C5F603C1B502E5F45668A155C25  
+> Key Scheme= X  
+> Key Scheme LMK= U  
+> Key Type = 001  
+> ZMK = C899B42EC5C350121FBE0987D14685A5  
+> ZMK Scheme = U  
 
     Response:
     0000A700U5F2DC42E10C92B16BA54802314CE95F5AFDA4F
