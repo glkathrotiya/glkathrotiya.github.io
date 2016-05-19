@@ -9,3 +9,8 @@ paginate: 5
 
 gems:
   - jekyll-sitemap
+  
+# Tagging settings
+tag_title_prefix:   "Posts tagged #"
+tag_title_suffix:   ""  
+  
