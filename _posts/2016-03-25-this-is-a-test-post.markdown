@@ -2,7 +2,7 @@
 published: true
 title: Importing ZPK and ZMK into Thales Payshield 9000 HSM
 layout: post
-tags: [Thales,Payment, HSM, ZPK, ZMK]
+tags: [Thales,Payment,HSM,ZPK,ZMK]
 category: Coding, Payment, HSM
 ---
 **ZMK**
