@@ -7,9 +7,9 @@ tags: [Thales,Payment,HSM,ZPK,ZMK]
 ---
 **ZMK**
 
-Zone Master Key (ZMK) also known as an **Interchange key (IK)** is a key-encrypting key which is distributed manually between two communicating sites, within a shared network, in order that further keys can be exchanged automatically. The ZMK is used to encrypt keys of a lower level (e.g. ZPK) for transmission.
+Zone Master Key (ZMK) also known as an **Interchange key (IK)**, is a key-encrypting key which is distributed manually between two communicating sites, within a shared network, in order that further keys can be exchanged automatically. The ZMK is used to encrypt keys of a lower level (e.g. ZPK) for transmission.
 
-The ZMK is exchanged using secured methods and Split knowledge policy. The KI is split into two components that are sent by two separate physical couriers to two nominated Security Officers of the other party. This is one of the most secure way to do it since no single person gains knowledge of the clear ZMK.
+The ZMK is exchanged using secured methods and Split knowledge policy. The IK is split into two components that are sent by two separate physical couriers to two nominated Security Officers of the other party. This is one of the most secure way to do it since no single person gains knowledge of the clear ZMK.
 
 Here is the detailed Process. please note values indicated here are for testing only, in live environment the values will be exchanged securely.
 
@@ -50,9 +50,10 @@ Zone PIN Key (ZPK) also known as a A **PIN Protection Key (PPK)**, is a data enc
 
 **Import ZPK**
 
-The following ZPK shared by comunicating party, is encrypted under ZMK 
+The following ZPK shared by communicating party, is encrypted under ZMK 
     
     ZPK encrypted under ZMK: AC4D3C5F603C1B502E5F45668A155C25
+    KCV: AFDA4F
     
 From the host application, send the **A6** commands with required arguments as following,
 
@@ -75,3 +76,5 @@ Where,
     
     ZPK under LMK: U5F2DC42E10C92B16BA54802314CE95F5
     KCV: AFDA4F
+
+Here we can compare KCV (AFDA4F) to check if key is imported successfully.
