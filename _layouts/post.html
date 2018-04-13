@@ -1,6 +1,12 @@
 ---
 layout: default
 ---
+<!-- Tags -->
+<ul class="tags">
+  {% for tag in page.tags %}
+    <li><a href="/tags#{{ tag }}" class="tag">{{ tag }}</a></li>
+  {% endfor %}
+</ul>
 
 <div class="post">
   <h1 class="post-title">{{ page.title }}</h1>
@@ -8,7 +14,6 @@ layout: default
   {{ content }}
 </div>
 
-{% include tagsforpost.html tags=page.tags %}
 
 <div class="related">
   <h2>Related Posts</h2>
