@@ -11,6 +11,7 @@ Zone Master Key (ZMK) also known as an **Interchange key (IK)**, is a key-encryp
 
 The ZMK is exchanged using secured methods and Split knowledge policy. The IK is split into two components that are sent by two separate physical couriers to two nominated Security Officers of the other party. This is one of the most secure way to do it since no single person gains knowledge of the clear ZMK.
 
+<!--more-->
 Here is the detailed Process. please note values indicated here are for testing only, in live environment the values will be exchanged securely.
 
 **Build ZMK Key manually:** 
