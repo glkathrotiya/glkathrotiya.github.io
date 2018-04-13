@@ -576,7 +576,7 @@ a.pagination-item:hover {
 .tag::after {
   background: #fff;
   border-bottom: 13px solid transparent;
-  border-left: 10px solid #767676;
+  border-left: 10px solid #0067FB;
   border-top: 13px solid transparent;
   content: '';
   position: absolute;
