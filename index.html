@@ -19,12 +19,8 @@ title: Home
       </a>
     </h2>
 
-    <span class="post-date"><svg class="icon-calendar"></svg>{{ post.date | date_to_string }}</span>
-  
-    <!-- Excerpt -->
-    {{ post.excerpt }}
-    <a class="continue-reading" href="{{ post.url }}" rel="bookmark" title="Permalink to {{ post.title }}">Continue Reading...</a>
-    
+    <span class="post-date"><svg class="icon-calendar"></svg>{{ post.date | date_to_long_string }}</span>
+      
   </div>
   {% endfor %}
 </div>
