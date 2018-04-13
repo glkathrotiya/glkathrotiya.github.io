@@ -13,3 +13,5 @@ gems:
 tag_title_prefix:   "Posts tagged #"
 tag_title_suffix:   ""  
   
+
+theme: jekyll-theme-minimal
