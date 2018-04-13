@@ -544,9 +544,9 @@ a.pagination-item:hover {
 
 .tag {
   font: 15px/1.5 'PT Sans', serif;
-  background: #767676;
+  background: #eee;
   border-radius: 3px 0 0 3px;
-  color: #FFFFFF;
+  color: #999;
   display: inline-block;
   height: 26px;
   line-height: 26px;
@@ -585,13 +585,13 @@ a.pagination-item:hover {
 }
 
 .tag:hover {
-  background-color: #f05422;
+  background-color: #0067FB;
   color: white;
   text-decoration: none;
 }
 
 .tag:hover::after {
-  border-left-color: #f05422;
+  border-left-color: #0067FB;
 }
 
 /* ===SVG icons=== */
