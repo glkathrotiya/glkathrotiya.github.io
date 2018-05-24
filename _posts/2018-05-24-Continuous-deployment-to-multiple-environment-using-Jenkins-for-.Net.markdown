@@ -5,8 +5,6 @@ layout: post
 tags: [Jenkins, deployment, CI. CD]
 
 ---
-# Continuous deployment to multiple environment using Jenkins for .Net
-
 One of the most common and repetitive task any agile team do is deploying code to multiple environment at the end of the sprint. So if you haven't already automated your deployment pipeline then your team is likely spending way more time in deployment ceremony instead of solving actual business problems and also your process is more prone to human errors.
 
 In this post i'm not discussing how to install Jenkins and related plugins from scratch since there is already lot written about that on internet and the process is fairly straight forward.
