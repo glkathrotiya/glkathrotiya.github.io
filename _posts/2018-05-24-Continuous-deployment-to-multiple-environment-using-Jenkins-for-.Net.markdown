@@ -2,7 +2,7 @@
 published: true
 title: Continuous deployment to multiple environment using Jenkins for .Net
 layout: post
-tags: [Jenkins, deployment, CI. CD]
+tags: [Jenkins, deployment, CI/CD]
 
 ---
 One of the most common and repetitive task any agile team do is deploying code to multiple environment at the end of the sprint. So if you haven't already automated your deployment pipeline then your team is likely spending way more time in deployment ceremony instead of solving actual business problems and also your process is more prone to human errors.
@@ -119,7 +119,7 @@ node {
 }
 
 def notify(status) {
- emailext(to: "gunvant.kathrotiya@bbumail.com",
+ emailext(to: "dev_group@example.com",
   subject: "${status}: Deployment job '${env.JOB_NAME} [${env.BUILD_NUMBER}]'",
   body: "<p>${status}: Deployment Job '${env.JOB_NAME} [${env.BUILD_NUMBER}]':</p> <p>Check console output at <a href='${env.BUILD_URL}'>${env.JOB_NAME} [${env.BUILD_NUMBER}]</a></p>"
   )
